@@ -29,6 +29,7 @@ public class StudentController {
 
     @Autowired
     private KafkaTemplate<String, UserBo> kafkaTemplate;
+    //this is test
     @GetMapping("/students")
     public String test(){
         return "test sucess";
