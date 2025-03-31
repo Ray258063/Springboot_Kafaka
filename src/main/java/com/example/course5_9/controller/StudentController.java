@@ -34,7 +34,7 @@ public class StudentController {
     public String test(){
         return "test sucess";
     }
-
+    //this is select
     @GetMapping("/students/{studentId}")
     public Student select(@PathVariable Integer studentId){
         return studentService.getById(studentId);
