@@ -3,6 +3,7 @@ package com.example.course5_9.bo;
 public class UserBo {
     //test 1
     //test 2
+    //test 3
     private String id;
     private String dpt;
 
