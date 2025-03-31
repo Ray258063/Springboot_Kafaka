@@ -21,6 +21,7 @@ import java.util.Map;
 @EnableKafka
 @Configuration
 public class KafkaConfig {
+    //this is config
 
     public static final String TEST_TOPIC = "test";
     public static final String JSON_TOPIC = "json";
